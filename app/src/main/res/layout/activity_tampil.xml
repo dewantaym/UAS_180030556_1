@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    tools:context=".TampilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_judul_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_film"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_film"
+            android:layout_width="396dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:contentDescription="@string/cover"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_tgl_rilis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/tgl_rilis"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/genre"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_durasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/durasi"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/rating"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_synopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/synopsis"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
